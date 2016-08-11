@@ -1,5 +1,13 @@
 # Factorio Recipes as JSON
 
+## Installation
+
+Clone this repository and run
+
+	npm install
+
+to install dependencies.
+
 ## Usage
 
 	Usage: src/index.js [options]
