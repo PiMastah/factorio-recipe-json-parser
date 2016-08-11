@@ -51,7 +51,9 @@ fs.readdir(path.normalize(cwd+path.sep+dir), function (err, files) {
 					return index > 0 && line !== ')'
 				});
 
-				fixedContent[fixedContent.length-1] = '}';
+				let s = fixedContent[fixedContent.length-1];
+
+				fixedContent[fixedContent.length-1] = s.substr(0, s.lastIndexOf('}')+1);
 
 				fixedContent = fixedContent.map(function (line) {
 					let fixedLine = line;
