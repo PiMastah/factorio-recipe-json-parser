@@ -37,4 +37,4 @@ Tested with Factorio 0.13.15. Expect bugs when testing with mods. Currently, zip
 
 *Please create a ticket if you encounter errors. Provide the file(s) you tried to parse. Provide your Factorio and mod version where applicable and/or attach mod archives to the ticket directly.*
 
-**If errors can not be reproduced, they most likely can not be fixed.**
+**If errors cannot be reproduced, they most likely can not be fixed.**
